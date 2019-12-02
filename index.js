@@ -31,9 +31,9 @@ let notes = [
   }
 ]
 
-// app.get('/', (req, res) => {
-//   res.send('<h1>Hello World!</h1>')
-// })
+app.get('/', (req, res) => {
+  res.send('<h1>Hello World!</h1>')
+})
 
 const generateId = () => {
   const maxId = notes.length > 0
