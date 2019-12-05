@@ -1,11 +1,11 @@
-post http://localhost:3001/api/persons
-content-type: application/json
+# post http://localhost:3001/api/notes
+# content-type: application/json
 
-{
-      "name": "Gerald Jay Sussman",
-      "number": "12-34567890"
-}
+# {
+#       "content": "Gerald Jay Sussman",
+#       "important": true
+# }
 
 # get http://localhost:3001/notes
 
-# delete http://localhost:3001/api/persons/1
+#get http://localhost:3001/api/notes/5a3b7c3c31d61cbd9f8a0343
